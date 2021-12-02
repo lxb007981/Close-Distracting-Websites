@@ -1,17 +1,17 @@
 {
     "name": "Close Distracting Websites",
-    "description": "Close distracting websites after a certain period of time!",
+    "description": "Distracting websites on the block list will be automatically closed after the specified time! Customize your block list in the extension options page.",
     "version": "0.1",
     "manifest_version": 3,
     "background": {
         "service_worker": "background.js"
     },
-    "permissions": ["tabs","storage","alarms"],
+    "permissions": ["tabs", "storage", "alarms"],
     "icons": {
-        "16": "/images/get_started16.png",
-        "32": "/images/get_started32.png",
-        "48": "/images/get_started48.png",
-        "128": "/images/get_started128.png"
+        "16": "/images/icon16.png",
+        "32": "/images/icon32.png",
+        "48": "/images/icon48.png",
+        "128": "/images/icon128.png"
     },
     "options_page": "options.html"
 }
