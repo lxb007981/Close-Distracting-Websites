@@ -1,6 +1,6 @@
 {
     "name": "Close Distracting Websites",
-    "description": "Distracting websites on the block list will be automatically closed after the specified time! Customize your block list in the extension options page.",
+    "description": "Distracting websites on the block list will be automatically closed after the time specified in the option page!",
     "version": "0.1",
     "manifest_version": 3,
     "background": {
